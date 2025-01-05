@@ -2,5 +2,42 @@ body{
     font-family: 'Courier New', Courier, monospace;
     color: aliceblue;
     background-color: black;
-    
+    background-image: url(image/rst.jfif);
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    background: rgba(32, 32, 32, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form-group{
+    margin: 0 auto 0 auto;
+    padding: 5px;
+}
+
+.container{
+    text-align: center;
+}
+
+.header{
+    padding: 10px;
+    height: 120px;
+    margin-bottom: 20px;
+    background-color: rgba(108, 81, 81, 0.706);
+    transition: 0.4s ease-in-out;
+
+}
+
+header:hover{
+    transform: scale(1.1);
+    background-color: rgb(95, 65, 25);
+}
+textarea{
+    margin: 0;
+    height: 50px;
+    width: 300px;
 }

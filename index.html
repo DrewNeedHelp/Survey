@@ -8,5 +8,46 @@
 </head>
 <body>
     
+    <div class="container">
+        <header class="header">
+            <h1>Restaurant feedback form</h1>
+            <p>Thank you for taking the time to complete our survey</p>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" name="form-control" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" name="form-control" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <p>How many of you are dining with friends?</p>
+                <select name="role" id="dropdown" class="form-control" required style="height : 40px;">
+                    <option disabled selected value="">Select group size</option>
+                    <option value="individual">one person</option>
+                    <option value="small">2-3 people</option>
+                    <option value="medium">4-6 people</option>
+                    <option value="large">7-10 people</option>
+                    <option value="very large ">10+ people</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <p>What would you like to order</p>
+                <textarea name="comments" id="comments" class="input-textarea">
+
+                </textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="submit-btn">Submit</button>
+
+            </div>
+        </form>
+            
+    </div>
+
 </body>
 </html>
